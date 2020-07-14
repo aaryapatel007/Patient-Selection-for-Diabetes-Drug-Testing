@@ -12,10 +12,6 @@ Due to healthcare PHI regulations (HIPAA, HITECH), there are limited number of p
 
 - https://archive.ics.uci.edu/ml/datasets/Diabetes+130-US+hospitals+for+years+1999-2008
 
-## Getting Started
-
-Follow the instructions in `starter_code/student_project.ipynb` and be sure to set up your Anaconda environment to get started!
-
 
 ### Dependencies
 Using Anaconda consists of the following:
@@ -58,30 +54,27 @@ These instructions also assume you have `git` installed for working with Github 
 conda install git
 ```
 
-If you'd like to learn more about version control and using `git` from the command line, take a look at our [free course: Version Control with Git](https://www.udacity.com/course/version-control-with-git--ud123).
-
 **Now, we're ready to create our local environment!**
 
 1. Clone the repository, and navigate to the downloaded folder. This may take a minute or two to clone due to the included image data.
 ```
-git clone https://github.com/udacity/nd320-c1-emr-data-starter.git
-cd nd320-c1-emr-data-starter
+https://github.com/aaryapatel007/Patient-Selection-for-Diabetes-Drug-Testing.git
 ```
 
-2. Create (and activate) a new environment, named `udacity-ehr-env` with Python 3.7. If prompted to proceed with the install `(Proceed [y]/n)` type y.
+2. Create (and activate) a new environment, named ` ehr-env` with Python 3.7. If prompted to proceed with the install `(Proceed [y]/n)` type y.
 
 	- __Linux__ or __Mac__: 
 	```
-	conda create -n udacity-ehr-env python=3.7
-	source activate udacity-ehr-env
+	conda create -n ehr-env python=3.7
+	source activate  ehr-env
 	```
 	- __Windows__: 
 	```
-	conda create --name udacity-ehr-env python=3.7
-	activate udacity-ehr-env
+	conda create --name  ehr-env python=3.7
+	activate  ehr-env
 	```
 	
-	At this point your command line should look something like: `(udacity-ehr-env) <User>:USER_DIR <user>$`. The `(udacity-ehr-env)` indicates that your environment has been activated, and you can proceed with further package installations.
+	At this point your command line should look something like: `( ehr-env) <User>:USER_DIR <user>$`. The `( ehr-env)` indicates that your environment has been activated, and you can proceed with further package installations.
 
 
 
@@ -90,9 +83,12 @@ cd nd320-c1-emr-data-starter
 ```
 pip install -r requirements.txt
 ```
+-----
 
+## Acknowledgement
 
+This project has been completed as a part of [AI for Healthcare](https://www.udacity.com/course/ai-for-healthcare-nanodegree--nd320).
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md]()
+This project is licensed under the terms of MIT License.
